@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  background: #03C9A9;
+}
+
+.root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 700px;
+  border-bottom: 2px solid #333;
+  text-transform: uppercase;
+
+}
+
+section {
+  width: 430px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+
+button {
+  border: 0;
+  font-size: 17px;
+  background: none;
+  color: #888;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
