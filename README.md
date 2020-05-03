@@ -1,6 +1,6 @@
 ## Todo List 폴더 구조
 
-<pre>
+--
 |src
 	| components                     -- components 폴더
 		| TodoCheckBox.jsx       -- Todo checkbox 요소
@@ -16,4 +16,4 @@
 		| Reset.scss            -- 초기 설정 scss
 		| TodoInput.scss        -- Todo List iput과 관련된 scss
 | jsconfig.json                         -- 프로젝트 절대 경로 설정
-</pre>
+--
