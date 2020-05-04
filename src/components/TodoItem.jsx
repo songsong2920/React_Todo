@@ -3,8 +3,8 @@ import Button from "./Button";
 import CheckBox from "./CheckBox";
 import Input from "./Input";
 
-const TodoItem = ({ todo }) => {
-  console.log(todo);
+const TodoItem = (todo) => {
+  console.log("111");
   const [showInput, setShowInput] = useState(false);
 
   const handleEditBtnClick = () => {
@@ -16,7 +16,7 @@ const TodoItem = ({ todo }) => {
   };
   return (
     <li>
-      <CheckBox label={!showInput} />
+      <CheckBox label={!showInput && todo.title} />
       {showInput && <Input value={""} />}
       <Button chilren="Edit" onClick={handleEditBtnClick} />
       <Button chilren="Delete" />
