@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 const Button = ({ type, chilren, onClick }) => {
-  
   const [isClicked, setIsClicked] = useState(false);
 
   const handleBtnClick = () => {
@@ -10,6 +9,7 @@ const Button = ({ type, chilren, onClick }) => {
       onClick(isClicked);
     }
   };
+
   return (
     <button type={type} onClick={handleBtnClick}>
       {chilren}
